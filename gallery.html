@@ -1,0 +1,123 @@
+<!--
+Name: Lejla Heganovic
+Course: CS412
+Assignment: Project 5
+Due Date: 09.01.2022-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		<title>Gallery</title>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+					</a>
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item current-menu-item"><a href="gallery.html">Gallery</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="mobile-menu"></div>
+				</div>
+			</header>
+			<main class="main-content">
+				<div class="fullwidth-block gallery">
+					<div class="container">
+						<div class="content fullwidth">
+							<h2 class="entry-title">Gallery</h2>
+							<div class="filter-links filterable-nav">
+								<select class="mobile-filter">
+									<option value="*">Show all</option>
+									<option value=".concert">Tattoo's by Haris</option>
+									<option value=".band">Tattoo's by Erva</option>
+									<option value=".stuff">Tattoo's by Shex</option>
+								</select>
+								<a href="#" class="current" data-filter="*">Show all</a>
+								<a href="#" data-filter=".concert">Tattoo's by Haris</a>
+								<a href="#" data-filter=".band">Tattoo's by Erva</a>
+								<a href="#" data-filter=".stuff">Tattoo's by Shex</a>
+							</div>
+							<div class="filterable-items">
+								<div class="filterable-item concert">
+									<a href="Photo/Tattoo's by Haris/Slika1.png"><figure><img src="Photo/Tattoo's by Haris/Slika1.png"alt="gallery 1"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="Photo/Tattoo's by Haris/Slika2.png"><figure><img src="Photo/Tattoo's by Haris/Slika2.png" alt="gallery 2"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="Photo/Tattoo's by Haris//Slika3.png"><figure><img src="Photo/Tattoo's by Shex/Slika1.png" alt="gallery 3"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="Photo/Tattoo's by Haris/Slika4.png"><figure><img src="Photo/Tattoo's by Haris/Slika4.png" alt="gallery 4"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="Photo/Tatto's by Erva/Slika1.png"><figure><img src="Photo/Tatto's by Erva/Slika1.png" alt="gallery 5"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="Photo/Tattoo's by Shex/Slika2.png"><figure><img src="Photo/Tattoo's by Shex/Slika2.png" alt="gallery 6"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="Photo/Tattoo's by Haris/Slika3.png"><figure><img src="Photo/Tattoo's by Haris/Slika3.png"alt="gallery 7"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="Photo/Tatto's by Erva/Slika2.png"><figure><img src="Photo/Tatto's by Erva/Slika2.png" alt="gallery 8"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="Photo/Tatto's by Erva/Slika3.png"><figure><img src="Photo/Tatto's by Erva/Slika3.png" alt="gallery 9"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="Photo/Tattoo's by Shex/Slika3.png"><figure><img src="Photo/Tattoo's by Shex/Slika3.png" alt="gallery 10"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="Photo/Tatto's by Erva/Slika4.png"><figure><img src="Photo/Tatto's by Erva/Slika4.png" alt="gallery 11"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="Photo/Tattoo's by Shex/Slika4.png"><figure><img src="Photo/Tattoo's by Shex/Slika4.png" alt="gallery 12"></figure></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</main>
+
+			<footer class="site-footer">
+				<div class="container">
+					
+					<address>
+						<p>	Musa Cazim Catic 12, 71000 Sarajevo, Bosnia and Herzegovina<br><a href="tel:123456789">+387 123456789</a> <br> <a href="mailto:otzitattooshop@gmail.com">otzitattooshop@gmail.com</a></p> 
+					</address> 
+					
+					<form action="#" class="newsletter-form">
+						<input type="email" placeholder="Enter your email to join newsletter...">
+						<input type="submit" class="button cut-corner" value="Subscribe">
+					</form>
+					
+					<div class="social-links">
+						<a href="https://www.facebook.com/pages/%C3%96tzi-Tetoviracnica/1184192938415607"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/tetoviracnica/"><i class="fa fa-instagram"></i></a>
+					</div>
+					<p class="copy">Otzy Tetoviracnica @ Copyright 2016. All right reserved. Designed by Lejla Heganovic</p>				
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
